@@ -1,0 +1,37 @@
+{
+  "name": "node-linkedin",
+  "version": "0.0.1",
+  "description": "Client for LinkedIn API v2",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrigory1982/node-linkedin.git"
+  },
+  "keywords": [
+    "linkedin"
+  ],
+  "author": "A.Grigoryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agrigory1982/node-linkedin/issues"
+  },
+  "homepage": "https://github.com/agrigory1982/node-linkedin#readme"
+}

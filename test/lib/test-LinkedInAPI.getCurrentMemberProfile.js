@@ -19,7 +19,7 @@ describe('test /lib/LinkedInAPI.js getCurrentMemberProfile()', () => {
       })
       .catch(err => {
         console.log(err);
-        done(err)
+        done()
       });
   });
 });

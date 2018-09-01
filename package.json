@@ -1,6 +1,6 @@
 {
   "name": "node-linkedin-v2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client for LinkedIn API v2",
   "main": "index.js",
   "directories": {

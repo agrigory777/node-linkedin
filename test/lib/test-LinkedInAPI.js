@@ -25,5 +25,6 @@ describe('test /lib/LinkedInAPI.js', () => {
   it('should call getAuthorizationUrl() correctly', () => {
     const url = linkedInAPI.getAuthorizationUrl(['r_basicprofile', 'r_basicprofile_2'], 'state');
     expect(typeof url === 'string').to.be.true;
+    expect(url).to.be.equal('https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=client_id&redirect_uri=redirect_uri&state=state&scope=r_basicprofile%2Cr_basicprofile_2');
   });
 });

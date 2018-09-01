@@ -1,5 +1,5 @@
 {
-  "name": "node-linkedin",
+  "name": "node-linkedin_v2",
   "version": "0.0.1",
   "description": "Client for LinkedIn API v2",
   "main": "index.js",

@@ -12,7 +12,7 @@ describe('test /lib/LinkedInAPI.js getCurrentMemberProfile()', () => {
    * Test getCurrentMemberProfile()
    */
   it('should call getCurrentMemberProfile() correctly', (done) => {
-    linkedInAPI.getCurrentMemberProfile('access_token')
+    linkedInAPI.getCurrentMemberProfile(['id', 'firstName', 'lastName'], 'access_token')
       .then(response => {
         console.log(response);
         done();

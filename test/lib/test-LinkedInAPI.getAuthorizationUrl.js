@@ -19,7 +19,7 @@ describe('test /lib/LinkedInAPI.js getAuthorizationUrl()', () => {
 
   it('should call getAuthorizationUrl() and throw error if 1st argument is not an array', () => {
     try {
-      const url = linkedInAPI.getAuthorizationUrl('r_basicprofile,r_basicprofile_2', 'state');
+      linkedInAPI.getAuthorizationUrl('r_basicprofile,r_basicprofile_2', 'state');
     } catch (err) {
       expect(err.message).to.be.equal('Scope must be an array');
     }
